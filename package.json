@@ -1,0 +1,37 @@
+{
+  "name": "yotescast",
+  "version": "1.0.0",
+  "description": "site for yotescast.com",
+  "main": "index.js",
+  "scripts": {
+    "cover": "npm run test && nyc report --reporter=lcov",
+    "lint": "eslint-godaddy lib/ test/",
+    "start": "node index",
+    "test": "npm run lint & npm run unit",
+    "unit": "nyc node_modules/.bin/_mocha tests/unit --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JohnsonWebWare/yotescast.git"
+  },
+  "author": "Alex Johnson <alex@johnsonwebware.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JohnsonWebWare/yotescast/issues"
+  },
+  "homepage": "https://github.com/JohnsonWebWare/yotescast#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "coveralls": "^3.0.0",
+    "eslint": "^4.11.0",
+    "eslint-config-godaddy": "^2.0.0",
+    "eslint-plugin-json": "^1.2.0",
+    "eslint-plugin-mocha": "^4.11.0",
+    "mocha": "^4.0.1",
+    "nyc": "^11.3.0",
+    "supertest": "^3.0.0"
+  },
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
