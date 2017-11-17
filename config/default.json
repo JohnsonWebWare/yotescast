@@ -6,9 +6,10 @@
             "generator": "Express / RSS",
             "feed_url": "https://yotescast.com/rss",
             "img_url": "https://yotescast.com/img/logo.jpg",
-            "webMaster": "Alex Johnson <alex@johnsonwebware.com>",
+            "docs": "https://yotescast.com/rss/doc",
+            "webMaster": "alex@johnsonwebware.com (Alex Johnson)",
             "copyright": "Yotescast 2016-2017",
-            "language": "English",
+            "language": "en",
             "ttl": 1440
         }
     }

@@ -8,7 +8,8 @@
     "lint": "eslint-godaddy lib/ test/",
     "start": "node index",
     "test": "npm run lint & npm run unit",
-    "unit": "nyc node_modules/.bin/_mocha tests/unit --recursive"
+    "unit": "nyc node_modules/.bin/_mocha tests/unit --recursive",
+    "uuid": "node uuid.js"
   },
   "repository": {
     "type": "git",
